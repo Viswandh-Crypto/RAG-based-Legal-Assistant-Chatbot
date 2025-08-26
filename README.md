@@ -1,6 +1,6 @@
 # RAG-based-Legal-Assistant-Chatbot
 
-#📚 RAG-based Legal Assistant Chatbot
+##📚 RAG-based Legal Assistant Chatbot
 
 A Retrieval-Augmented Generation (RAG) chatbot built with LangChain, HuggingFace embeddings, FAISS, and Gemini Pro LLM.
 This assistant ingests legal documents (court orders, judgments, filings), indexes them for semantic search, and provides accurate, context-aware answers to user queries in natural language.
