@@ -7,28 +7,28 @@ This assistant ingests legal documents (court orders, judgments, filings), index
 
 🔍 Features
 
-📄 Document Ingestion: Load legal PDFs and split into context-preserving chunks.
+ •📄 Document Ingestion: Load legal PDFs and split into context-preserving chunks.
 
-🧠 Semantic Search with FAISS: Store embeddings for fast and relevant retrieval.
+ •🧠 Semantic Search with FAISS: Store embeddings for fast and relevant retrieval.
 
-🤖 RAG Workflow: Retrieve top-k relevant chunks and augment LLM responses.
+ •🤖 RAG Workflow: Retrieve top-k relevant chunks and augment LLM responses.
 
-⚖️ Legal Query Answering: Summarize cases, identify petitioners, deadlines, and compliance details.
+ •⚖️ Legal Query Answering: Summarize cases, identify petitioners, deadlines, and compliance details.
 
-🔑 Pluggable LLMs: Currently supports Google Gemini Pro, but can be swapped with OpenAI, Anthropic, or others.
+ •🔑 Pluggable LLMs: Currently supports Google Gemini Pro, but can be swapped with OpenAI, Anthropic, or others.
 
 ⚡ Tech Stack
 
-LangChain
+ •LangChain
  – Orchestration framework
 
-HuggingFace Transformers
+ •HuggingFace Transformers
  – Embeddings (sentence-transformers/all-MiniLM-L6-v2)
 
-FAISS
+ •FAISS
  – Vector database for semantic search
 
-Google Gemini Pro
+ •Google Gemini Pro
  – LLM for generation
 
  🧑‍⚖️ Example Usage:
@@ -71,10 +71,10 @@ This project anchors responses in retrieved evidence, ensuring factual accuracy 
 
 🌟 Future Improvements
 
-• Add support for multiple document uploads
+ • Add support for multiple document uploads
 
-• Implement chat history memory
+ • Implement chat history memory
 
-• Extend to multi-jurisdictional case law databases
+ • Extend to multi-jurisdictional case law databases
 
-• Deploy as a web app (Streamlit / FastAPI)
+ • Deploy as a web app (Streamlit / FastAPI)
