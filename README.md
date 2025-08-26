@@ -71,10 +71,10 @@ This project anchors responses in retrieved evidence, ensuring factual accuracy 
 
 🌟 Future Improvements
 
-Add support for multiple document uploads
+• Add support for multiple document uploads
 
-Implement chat history memory
+• Implement chat history memory
 
-Extend to multi-jurisdictional case law databases
+• Extend to multi-jurisdictional case law databases
 
-Deploy as a web app (Streamlit / FastAPI)
+• Deploy as a web app (Streamlit / FastAPI)
